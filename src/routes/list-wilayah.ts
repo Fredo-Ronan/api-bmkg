@@ -8,7 +8,7 @@ const router = Router();
 router.get('/list-wilayah', (req, res) => {
     const daftarAreaWilayah = Object.keys(daftarWilayah);
 
-    res.json({message: daftarAreaWilayah});
+    res.json({author: "Fredo Ronan", message: daftarAreaWilayah});
 });
 
 export default router
