@@ -17,6 +17,7 @@ app.use('/api', bmkg_cuaca_api_1.default);
 app.use('/api', list_wilayah_1.default);
 app.get('/', (req, res) => {
     res.send('Hello World!');
+    
 });
 app.listen(port, () => {
     console.log(`Server running on port ${port}`);
