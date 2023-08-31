@@ -1,9 +1,7 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.daftarWilayah = void 0;
+
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // API Links from Data Terbuka BMKG
-exports.daftarWilayah = {
+export let daftarWilayah = {
     aceh: "https://data.bmkg.go.id/DataMKG/MEWS/DigitalForecast/DigitalForecast-Aceh.xml",
     bali: "https://data.bmkg.go.id/DataMKG/MEWS/DigitalForecast/DigitalForecast-Bali.xml",
     bangkaBelitung: "https://data.bmkg.go.id/DataMKG/MEWS/DigitalForecast/DigitalForecast-BangkaBelitung.xml",
