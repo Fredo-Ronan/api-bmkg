@@ -4,7 +4,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = __importDefault(require("express"));
-const path_1 = __importDefault(require('path'));
+// const path_1 = __importDefault(require('path'));
 const example_1 = __importDefault(require("./routes/example"));
 const bmkg_cuaca_api_1 = __importDefault(require("./routes/bmkg-cuaca-api"));
 const list_wilayah_1 = __importDefault(require("./routes/list-wilayah"));
